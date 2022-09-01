@@ -8,7 +8,7 @@
 
 ## 第二步接下來依照下方影片操作取得一個月Qwiklabs訂閱
 
-[![Google cloud study obtain monthly subscription](https://res.cloudinary.com/marcomontalbano/image/upload/v1662042138/video_to_markdown/images/youtube--MVZ6imsfPLo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/MVZ6imsfPLo "Google cloud study obtain monthly subscription")
+[![Google cloud study obtain monthly subscription](https://res.cloudinary.com/marcomontalbano/image/upload/v1662042138/video_to_markdown/images/youtube--MVZ6imsfPLo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/eKYxUjNgt8c "Google cloud study obtain monthly subscription")
 
 ---
 
