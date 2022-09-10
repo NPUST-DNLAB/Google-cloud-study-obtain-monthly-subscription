@@ -44,3 +44,15 @@ ericsk — 2022/08/15：
 
 5. 真的沒辦法的時候，請聯繫 support@qwiklabs.com 請技術服務團隊來協助您排除困難。
 ```
+
+---
+
+## 更新來自活動主辦方延長活動提交獎品表單時間
+
+```
+Hi everyone,
+We have very great news for you. We will extend the deadline to submit the completion form until Sept 18, 2022. 
+If you haven't started learning yet, please start your learning journey as soon as possible!
+
+Thank you and We're looking forward to your submission!
+```
