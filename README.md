@@ -24,7 +24,7 @@
 
 or
 
-[Line](https://raw.githubusercontent.com/NPUST-DNLAB/Google-cloud-study-obtain-monthly-subscription/71c3b33d260f981d7d87b809490712ad29113f1b/line-svgrepo-com.svg)(https://line.me/ti/p/yea9T2X2QZ)
+[![Line](https://raw.githubusercontent.com/NPUST-DNLAB/Google-cloud-study-obtain-monthly-subscription/71c3b33d260f981d7d87b809490712ad29113f1b/line-svgrepo-com.svg)](https://line.me/ti/p/yea9T2X2QZ)
 
 ---
 
