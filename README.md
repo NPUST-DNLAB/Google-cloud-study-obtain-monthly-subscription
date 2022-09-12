@@ -20,7 +20,7 @@
 
 歡迎在挑戰LAB時遇到問題的同學提問
 
-有任何問題歡迎直接開issues或是透過<a href="mailto:q0975040879@gmail.com">Email</a>向我發送問題
+有任何問題歡迎直接開issues或是透過[email](<a href="mailto:q0975040879@gmail.com">Email</a>)向我發送問題
 
 or
 
