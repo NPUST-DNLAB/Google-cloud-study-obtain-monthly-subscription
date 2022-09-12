@@ -20,8 +20,8 @@
 
 歡迎在挑戰LAB時遇到問題的同學提問
 
-有任何問題歡迎直接開issues或是透過[email](<a href="mailto:q0975040879@gmail.com">Email</a>)向我發送問題
-
+有任何問題歡迎直接開issues或是透過向我發送問題
+[<img src="https://raw.githubusercontent.com/NPUST-DNLAB/Google-cloud-study-obtain-monthly-subscription/d18463ed97d4e3bea6e1b89487160d27cc12abde/email.svg" width="32" height="32">](mailto:q0975040879@gmail.com)
 or
 
 [<img src="https://raw.githubusercontent.com/NPUST-DNLAB/Google-cloud-study-obtain-monthly-subscription/71c3b33d260f981d7d87b809490712ad29113f1b/line-svgrepo-com.svg"  width="32" height="32">](https://line.me/ti/p/yea9T2X2QZ) 
