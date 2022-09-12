@@ -24,7 +24,7 @@
 
 or
 
-[![Line](https://raw.githubusercontent.com/NPUST-DNLAB/Google-cloud-study-obtain-monthly-subscription/71c3b33d260f981d7d87b809490712ad29113f1b/line-svgrepo-com.svg){:height="32px" width="32px"}.](https://line.me/ti/p/yea9T2X2QZ)
+[<img src="https://raw.githubusercontent.com/NPUST-DNLAB/Google-cloud-study-obtain-monthly-subscription/71c3b33d260f981d7d87b809490712ad29113f1b/line-svgrepo-com.svg"  width="32" height="32">](https://line.me/ti/p/yea9T2X2QZ)
 
 ---
 
