@@ -58,3 +58,73 @@ If you haven't started learning yet, please start your learning journey as soon 
 
 Thank you and We're looking forward to your submission!
 ```
+
+## Code
+
+> 1
+```
+export PROJECT_ID=$(gcloud config get-value core/project)
+export BUCKET_LOCATION=us-central1
+```
+
+> 2
+```
+gsutil mb -c standard -l ${BUCKET_LOCATION} -b on \
+ gs://${PROJECT_ID}-input-invoices
+gsutil mb -c standard -l ${BUCKET_LOCATION} -b on \
+ gs://${PROJECT_ID}-output-invoices
+gsutil mb -c standard -l ${BUCKET_LOCATION} -b on \
+ gs://${PROJECT_ID}-archived-invoices
+
+```
+
+> 3
+```
+bq --location=US mk  -d \
+ --description "Form Parser Results" \
+ ${PROJECT_ID}:invoice_parser_results
+```
+
+> 4
+```
+cd ~/document-ai-challenge/scripts/table-schema
+```
+
+> 5
+```
+bq mk --table \
+invoice_parser_results.doc_ai_extracted_entities \
+doc_ai_extracted_entities.json
+```
+
+> 6
+```
+cd ~/document-ai-challenge/scripts
+```
+
+> 6
+```
+cd ~/document-ai-challenge/scripts
+```
+
+> 7
+```
+export PROJECT_ID=$(gcloud config get-value core/project)   
+export CLOUD_FUNCTION_LOCATION=us-central1
+gcloud functions deploy process-invoices \
+--region=${CLOUD_FUNCTION_LOCATION} \
+--entry-point=process_invoice \
+--runtime=python37 \
+--service-account=${PROJECT_ID}@appspot.gserviceaccount.com \
+--source=cloud-functions/process-invoices \
+--timeout=400 \
+--env-vars-file=cloud-functions/process-invoices/.env.yaml \
+--trigger-resource=gs://${PROJECT_ID}-input-invoices \
+--trigger-event=google.storage.object.finalize
+```
+
+> 8
+```
+export PROJECT_ID=$(gcloud config get-value core/project)
+gsutil cp ~/document-ai-challenge/invoices/* gs://${PROJECT_ID}-input-invoices/
+```
