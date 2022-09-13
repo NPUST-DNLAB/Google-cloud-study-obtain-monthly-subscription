@@ -102,6 +102,11 @@ doc_ai_extracted_entities.json
 cd ~/document-ai-challenge/scripts
 ```
 
+
+> 最後Document AI ID 配對回 Cloud Functions 
+
+[![Automate Data Capture at Scale with Document AI: Challenge Lab Document AI ID to Cloud Functions](https://res.cloudinary.com/marcomontalbano/image/upload/v1662042138/video_to_markdown/images/youtube--MVZ6imsfPLo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=MVZ6imsfPLo "Automate Data Capture at Scale with Document AI: Challenge Lab Document AI ID to Cloud Functions")
+
 > 7
 ```
 export PROJECT_ID=$(gcloud config get-value core/project)   
@@ -123,3 +128,5 @@ gcloud functions deploy process-invoices \
 export PROJECT_ID=$(gcloud config get-value core/project)
 gsutil cp ~/document-ai-challenge/invoices/* gs://${PROJECT_ID}-input-invoices/
 ```
+
+##
