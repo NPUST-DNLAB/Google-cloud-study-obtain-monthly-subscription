@@ -102,11 +102,6 @@ doc_ai_extracted_entities.json
 cd ~/document-ai-challenge/scripts
 ```
 
-> 6
-```
-cd ~/document-ai-challenge/scripts
-```
-
 > 7
 ```
 export PROJECT_ID=$(gcloud config get-value core/project)   
